@@ -14,7 +14,7 @@ The long term benefit of using Cucumber comes from living documentation, a sourc
 - About business functionality, not about software design
 
 
-##Feature file structure, format and syntax
+##Feature file: structure and syntax
 
 Feature source file usually looks like this: 
 
@@ -91,3 +91,16 @@ Line 15 starts next scenario and so on.
     14:
     15:  Scenario: Patient signs up with invalid data
     16:    ...
+
+### [Syntax of feature file](https://github.com/cucumber/cucumber/wiki/Gherkin)
+
+Cucumber scenarios consist of steps, each of them starts with keywords: **Given**, **When** and **Then**. The purpose of this keywords is:
+
+- Given
+    - **put the system in a known state**
+- When
+    - **describe the key action**
+- Then
+    - **observe outcomes**
+
+More details, including usage of keywords **And, But** you may find [here](https://github.com/cucumber/cucumber/wiki/Given-When-Then)
