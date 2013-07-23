@@ -1,7 +1,7 @@
-Basic guidelines to write good feature files
+Basic guide how to write good feature files
 ============================================
 
->The point of writing Cucumber tests is to create a specification about what the code does that can be read by the people on your team who can't read code.
+>The point of writing Cucumber tests is to create a specification about what the code does that can be read by the people on your team who can't read code.  
 > -- Matt Wynne
 
 ##[What makes a good feature file](http://cuke4ninja.com/sec_good_feature_file.html)
@@ -41,7 +41,7 @@ Feature source file usually looks like this:
     - keyword **Feature**
     - feature's title
 - Narrative
-    - identify the **stakeholder** (*a stakeholder is a person who gets some value out of the system, typical stakeholders are representative of groups of users, for example a trader, a patient or an administrator*)
+    - identify the **stakeholder** (a stakeholder is a person who gets some value out of the system, typical stakeholders are representative of groups of users, for example a trader, a patient or an administrator)
     - describe the **feature** he wants
     - the **reason** for wanting it
 - Acceptance Criteria
@@ -52,7 +52,7 @@ First line starts the feature and contain keyword **Feature** and it's title.<br
 
     1: Feature: Sign up                      # Title
 
-Lines 2–4 are the **narrative**, which is expected to describe the business value of this feature. Common pattern to write good narrative is: *identify the stakeholder, describe the feature he wants, the reason for wanting it*.
+Lines 2–4 are the **narrative**, which is expected to describe the business value of this feature. Common pattern to write good narrative is: *identify the stakeholder, describe the feature he wants, the reason for wanting it*.  
 Note: The narrative lines are unparsed text.
 
     2:   A patient                           # identify the stakeholder
@@ -140,8 +140,8 @@ This is very hard to support above steps from developers side - they should code
 to be filled...
 
 ## Useful Links
-http://benmabey.com/2008/05/19/imperative-vs-declarative-scenarios-in-user-stories.html
-http://www.elabs.se/blog/15-you-re-cuking-it-wrong
-http://dannorth.net/2011/01/31/whose-domain-is-it-anyway/
-http://blog.josephwilk.net/ruby/metrics-for-plain-text-acceptance-tests.html
-http://blog.codeship.io/2013/05/21/Testing-Tuesday-6-Top-5-Cucumber-best-practices.html
+* http://benmabey.com/2008/05/19/imperative-vs-declarative-scenarios-in-user-stories.html
+* http://www.elabs.se/blog/15-you-re-cuking-it-wrong
+* http://dannorth.net/2011/01/31/whose-domain-is-it-anyway/
+* http://blog.josephwilk.net/ruby/metrics-for-plain-text-acceptance-tests.html
+* http://blog.codeship.io/2013/05/21/Testing-Tuesday-6-Top-5-Cucumber-best-practices.html
